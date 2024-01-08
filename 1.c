@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<dirent.h>
-struct direct *dptr;
+struct dirent *dptr;
 
 int main(int args, char *argv[]){
     char buff[100];
